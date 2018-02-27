@@ -1,0 +1,165 @@
+.header-bg-active {
+    background-color: #6b6b6b;
+    
+}
+.header-bg {}
+.header-bg :hover {
+    color:#fff !important;
+}
+.menu {
+    background-color: #2e3243;
+    height: 50px;
+    color: #999;
+    font-size: 12px;
+    padding: 0 30px;
+}
+.menu>a>span{
+    color:#aaa;
+}
+.menudiv {
+    margin:0 15px;
+}
+.menudiv a {
+    float: left;
+    font-size: 14px;
+    color:#a7abbe;
+    padding: 0 10px;
+    text-decoration: none;
+}
+div.menudiv :hover{
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menuactive {
+    background-color: #6b6b6b !important;
+    color:#fff !important;
+}
+.extMenu {
+    position: absolute;
+    top: 60px;
+    left: 286px;
+    display: none;
+    background-color: #6b6b6b;
+    padding: 20px 0;
+}
+.extMenu li {
+    width: 300px;
+    padding: 0 20px;
+}
+.extMenu li div{
+    line-height: 30px;
+}
+.extMenu li div span {
+    font-size: 14px;
+}
+.extMenu li div img {
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+.extMenu li :hover {
+    background-color: #4b4b4b;
+}
+.li-div-bk {
+    padding: 0 5px;
+}
+.messages {
+    position: fixed;
+    z-index: 9999999;
+    top: 54px;
+    width:385px;
+}
+.user-head-png{
+    border: 0;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+.region-head{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin: 14px 20px 0;
+    background-color: #474c5e;
+    border-radius: 12px;
+}
+.max-length-120px{
+    max-width: 120px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.region-style {
+    width: 8px;
+}
+.vertical-line{
+    width: 1px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-top: 14px;
+    margin-right: 10px;
+    border-right: 1px solid #aaaaaa;
+}
+
+.text-left10 {
+    margin-left: 10px;
+}
+.copyright-footer{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    min-width: 1280px;
+    color: #a7abbe;
+    background-color: #f4f5f6;
+    text-align: center;
+    bottom: 0;
+    z-index: 999;
+}
+
+.topCls {
+    position:absolute;
+    background-color:#6c6c6c;
+    display: none;
+    right: 0px;
+    padding:20px 0;
+}
+#setup span{
+    color:#aaa;
+}
+.menuactive #setup span{
+    color: #ffffff;
+}
+.topCls li :hover {
+    background-color:#4b4b4b;
+}
+.toggleClass:hover{
+    background-color:#6c6c6c;
+}
+.topCls li span {
+    display:inline-block;
+    width:100%;
+    padding:5px 0 5px 15px;
+    color:#fff;
+}
+.need {
+    color:red;
+}
+.svg-icon {
+    position:relative;
+    display: inline-block;
+}
+.svg-icon svg {
+    position:absolute;
+    width:22px;
+    height:22px;
+    top:-17px;
+    fill:currentColor;
+}
+.svg-icon svg path {
+    fill:currentColor !important;
+}
